@@ -1,0 +1,50 @@
+.experience-section {
+  background: #18181b;
+  color: #fff;
+  padding: 4rem 0 3rem 0;
+  text-align: center;
+}
+
+.experience-section h2 {
+  color: #38bdf8;
+  margin-bottom: 2rem;
+}
+
+.experience-timeline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.experience-item {
+  background: #23272f;
+  border-radius: 14px;
+  padding: 1.5rem 2rem;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.12);
+  text-align: left;
+}
+
+.experience-role {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #a5f3fc;
+}
+
+.experience-company {
+  font-size: 1rem;
+  color: #38bdf8;
+  margin-bottom: 0.3rem;
+}
+
+.experience-period {
+  font-size: 0.95rem;
+  color: #b3b3b3;
+  margin-bottom: 0.7rem;
+}
+
+.experience-desc {
+  font-size: 1rem;
+}

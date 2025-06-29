@@ -1,0 +1,42 @@
+.about-section {
+  background: #23272f;
+  color: #fff;
+  padding: 4rem 0 3rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.about-content {
+  max-width: 700px;
+  text-align: center;
+}
+
+.about-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  color: #38bdf8;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-content li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  position: relative;
+  padding-left: 1.2rem;
+}
+
+.about-content li::before {
+  content: "•";
+  color: #38bdf8;
+  position: absolute;
+  left: 0;
+}

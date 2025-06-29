@@ -1,0 +1,34 @@
+.skills-section {
+  background: #23272f;
+  color: #fff;
+  padding: 4rem 0 3rem 0;
+  text-align: center;
+}
+
+.skills-section h2 {
+  color: #38bdf8;
+  margin-bottom: 2rem;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+.skill-card {
+  background: #18181b;
+  color: #38bdf8;
+  border: 1px solid #38bdf8;
+  border-radius: 12px;
+  padding: 0.8rem 1.8rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+}
+
+.skill-card:hover {
+  background: #38bdf8;
+  color: #18181b;
+}

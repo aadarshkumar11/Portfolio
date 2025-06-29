@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  background: #18181b;
+  color: #fff;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+}
+
+main {
+  min-height: 80vh;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #23272f;
+}
+::-webkit-scrollbar-thumb {
+  background: #38bdf8;
+  border-radius: 4px;
+}
+
+body[data-theme="light"] {
+  background: #f8fafc;
+  color: #18181b;
+}
+body[data-theme="light"] .navbar,
+body[data-theme="light"] .footer {
+  background: #fff;
+  color: #18181b;
+}
+body[data-theme="light"] .project-card,
+body[data-theme="light"] .experience-item,
+body[data-theme="light"] .blog-card,
+body[data-theme="light"] .about-section,
+body[data-theme="light"] .skills-section,
+body[data-theme="light"] .contact-section,
+body[data-theme="light"] .hireme-section {
+  background: #f1f5f9;
+  color: #18181b;
+}
+
+

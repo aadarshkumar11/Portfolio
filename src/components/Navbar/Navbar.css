@@ -1,0 +1,83 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  background: #18181b;
+  color: #fff;
+}
+
+.navbar-logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+.navbar-links a:hover,
+.hire-me-btn {
+  color: #38bdf8;
+}
+
+.hire-me-btn {
+  border: 1px solid #38bdf8;
+  border-radius: 20px;
+  padding: 0.4rem 1rem;
+  margin-left: 0.5rem;
+}
+
+/* Add to src/components/Navbar/Navbar.css */
+.theme-toggle {
+  background: none;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  margin-left: 1rem;
+  color: inherit;
+  transition: color 0.2s;
+}
+
+
+
+/* ...existing styles... */
+
+/* Light mode overrides */
+body[data-theme="light"] .navbar {
+  background: #fff;
+  color: #18181b;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+body[data-theme="light"] .navbar-logo a {
+  color: #18181b;
+}
+
+body[data-theme="light"] .navbar-links a,
+body[data-theme="light"] .hire-me-btn {
+  color: #18181b;
+  border-color: #38bdf8;
+}
+
+body[data-theme="light"] .navbar-links a:hover,
+body[data-theme="light"] .hire-me-btn:hover {
+  color: #38bdf8;
+}
+
+body[data-theme="light"] .theme-toggle {
+  color: #18181b;
+}
